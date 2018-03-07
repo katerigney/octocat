@@ -8,13 +8,6 @@ body {
   font: 16px / 1 sans-serif;
 }
 
-.octocats{
-  width:50%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 .mainnav {
   background-color: lightgray;
   display: flex;
@@ -24,12 +17,12 @@ body {
 }
 
 .leftnav {
-  margin: .5em;
+  margin: .5em  3em;
   height: 20px;
 }
 
 .rightnav{
-  margin: .5em ;
+  margin: .5em  3em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,4 +30,49 @@ body {
 
 .links{
   margin-left:1.5em;
+}
+
+.octocats-gallery{
+  margin: 1.5em;
+  padding:2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.octocats-container{
+  margin: 1.5em;
+  padding:2px;
+}
+
+.octocats{
+  width:500px;
+  height: 500px;
+  padding:5px;
+  border:.25px solid gray;
+}
+
+.image-footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between
+  
+}
+
+h3{
+  font-size: 12px;
+}
+
+.profile-row{
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.profile{
+  height: 20px;
+  margin: .5em;
 }
