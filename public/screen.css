@@ -9,7 +9,7 @@ body {
 }
 
 .mainnav {
-  background-color: lightgray;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,13 +44,14 @@ body {
 .octocats-container{
   margin: 1.5em;
   padding:2px;
+  border-bottom: .5px solid lightgray;
 }
 
 .octocats{
   width:500px;
   height: 500px;
   padding:5px;
-  border:.25px solid gray;
+  border:.25px solid lightgray;
 }
 
 .image-footer{
@@ -70,6 +71,10 @@ h3{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+.image-footer > h3 {
+  color: gray;
 }
 
 .profile{
