@@ -37,7 +37,7 @@ body {
   padding:2px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -45,11 +45,11 @@ body {
   margin: 1.5em;
   padding:2px;
   border-bottom: .5px solid lightgray;
+  max-width: 28%;
 }
 
 .octocats{
-  width:500px;
-  height: 500px;
+  max-width:100%;
   padding:5px;
   border:.25px solid lightgray;
 }
@@ -120,11 +120,11 @@ h3{
 
   .octocats-container{
     margin: .5em;
+    max-width: 100%;
   }
 
   .octocats{
-    width:350px;
-    height: 350px;
+    max-width: 100%;
    /* padding:5px;
     border:.25px solid lightgray;*/
   }
