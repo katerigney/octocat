@@ -9,7 +9,7 @@ body {
 }
 
 .mainnav {
-  background-color: #fff;
+  background-color: lightgray;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -80,4 +80,53 @@ h3{
 .profile{
   height: 20px;
   margin: .5em;
+}
+
+@media (max-width: 600px) {
+
+  .mainnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .leftnav {
+    margin: .5em  1em;
+    height: 15px;
+  }
+  
+  .rightnav{
+    margin: .5em  1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .links{
+    margin-left:1.5em;
+    font-size: 12px;
+  }
+
+  .octocats-gallery{
+    margin: .5em;
+    padding:2px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+  
+  }
+
+  .octocats-container{
+    margin: .5em;
+  }
+
+  .octocats{
+    width:350px;
+    height: 350px;
+   /* padding:5px;
+    border:.25px solid lightgray;*/
+  }
+
 }
